@@ -4258,7 +4258,7 @@ quat4.str=function(a){return"["+a[0]+", "+a[1]+", "+a[2]+", "+a[3]+"]"};
 		}
 		this.uses_loader_layout = pm[18];
 		this.loaderstyle = pm[19];
-		if (this.loaderstyle === 0)
+		if (this.loaderstyle === 4)
 		{
 			var loaderImage = new Image();
 			loaderImage.crossOrigin = "anonymous";
